@@ -49,10 +49,10 @@ for comuna in comunas_unicas:
     print('_________________________________________________________________________________________')
     print(f'Predicciones {comuna}: {predictions_by_comuna}')
 
-    metros_cuadrados_criterio = 60
-    dormitorios_criterio = 3
-    banos_criterio = 1
-    # Llamar a la función procesar_datos
-    opciones_disponibles_sin_duplicados = procesar_datos(perico, all_predictions_by_comuna, metros_cuadrados_criterio, dormitorios_criterio, banos_criterio)
+metros_cuadrados_criterio = 60
+dormitorios_criterio = 3
+banos_criterio = 1
+# Llamar a la función procesar_datos
+opciones_disponibles_sin_duplicados = procesar_datos(perico, all_predictions_by_comuna, metros_cuadrados_criterio, dormitorios_criterio, banos_criterio)
 
 
