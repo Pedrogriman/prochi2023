@@ -17,7 +17,7 @@ from typing import Union
 
 # Lectura de datos
 def leer_datos(ruta):
-    return pd.read_excel(ruta)
+    return pd.read_excel(prochi2023/usable11.xlsx)
 
 # Limpieza de datos
 def limpiar_datos(datos):
