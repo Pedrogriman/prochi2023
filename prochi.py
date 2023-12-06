@@ -50,7 +50,7 @@ for comuna in comunas_unicas:
     print(f'Predicciones {comuna}: {predictions_by_comuna}')
 
 
-  metros_cuadrados_criterio = 60.0
+  metros_cuadrados_criterio = 60
   dormitorios_criterio = 3
   banos_criterio = 1
   # Llamar a la función procesar_datos
