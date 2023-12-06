@@ -1,3 +1,4 @@
+pip install seaborn
 from librerias_datos import leer_datos, limpiar_datos
 from mapeo_datos import mapear_valores
 from correlacion import calcular_correlacion_por_comuna
